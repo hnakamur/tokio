@@ -51,6 +51,7 @@ mod stdin;
 mod stdout;
 mod symlink_metadata;
 mod write;
+pub mod xattr;
 
 pub use create_dir::{create_dir, CreateDirFuture};
 pub use create_dir_all::{create_dir_all, CreateDirAllFuture};
